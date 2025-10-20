@@ -147,7 +147,7 @@
 
 .two{
     position: relative;
-    left: -16px;
+    left: -10px;
     opacity: 0;
       transform: translateX(-100px);
       transition: all 2s ease;
@@ -587,6 +587,7 @@ button{
     
 }
 }
+
 
 
 
