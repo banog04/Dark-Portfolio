@@ -109,7 +109,7 @@
 .profile{
     width:500px;
     height:650px;
-    top: 28px;
+    top: 38px;
     left: 30%;
     position: absolute;
      opacity: 0;
@@ -587,4 +587,5 @@ button{
     
 }
 }
+
 
