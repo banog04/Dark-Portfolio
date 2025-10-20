@@ -578,4 +578,12 @@ button{
   min-width: 100px;
   padding: -10px;
 }
+.profile{
+  position: absolute;
+  left: 27%;
+}
+.one{
+  left:40%;
+    
+}
 }
