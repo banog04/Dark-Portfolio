@@ -590,9 +590,10 @@ button{
 @media(max-height: 679px){
 .profile{
 	position: absolute;
-	top:-30px;
+	top:-20px;
 }
 }
+
 
 
 
