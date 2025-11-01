@@ -14,4 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       elements.forEach(el => observer.observe(el));
+
     });;
+
+function sendMail(){
+      let parms = {
+            name : document.getElementById("name").value,
+            email : document.getElementById("email").value,
+            message : document.getElementById("message").value,
+      }
+      emailjs.send("service_me5tpf6","template_g0tk03g",parms).then(alert("Email Sent!"))
+}
