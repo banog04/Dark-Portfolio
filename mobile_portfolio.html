@@ -17,6 +17,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+	<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "O5RgFdto_uCQqc5m8",
+      });
+   })();
+</script>
 
     <!-- Custom JS -->
     <script src="portfolio.js" defer></script>
@@ -185,9 +195,9 @@
             <img src="64e96ef4-90ba-4f0b-a5d8-45491ef65589-removebg-preview.png" alt="profile" align="right" class="profile2">
             <h2 class="outline-text">HAVE A</h2> <h2 class="white">QUESTIONS?</h2>
             <div class="inputs">
-            <input type="text" data-role="text" name="name" placeholder="Name" class="input-field" data-theme="b"><br>
-            <input type="email" name="email" placeholder="Email" class="input-field" data-theme="b"><br>   
-            <textarea name="message" placeholder="Message" class="message-field" data-theme="b"></textarea><br>
+            <input type="text" data-role="text" name="name" id="name" placeholder="Name" class="input-field" data-theme="b"><br>
+            <input type="email" name="email" id="email" placeholder="Email" class="input-field" data-theme="b"><br>   
+            <textarea name="message" id="message" placeholder="Message" class="message-field" data-theme="b"></textarea><br>
             <button data-role="button">Send</button>
         </div>
 
@@ -207,6 +217,7 @@
 </body>
 
 </html>
+
 
 
 
