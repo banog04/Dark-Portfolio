@@ -587,12 +587,13 @@ button{
     
 }
 }
-@media(max-width: 1115px){
+@media(max-width: 1366px){
 .profile{
 	position: absolute;
 	top:-3px;
 }
 }
+
 
 
 
